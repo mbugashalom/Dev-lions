@@ -1,0 +1,12 @@
+pipeline {
+  agent {
+    label 'static-node-lions '
+  }
+  stages {
+    stage('Hello) {
+      steps {
+        echo 'Hello, World!
+      }
+    }
+  }
+}
