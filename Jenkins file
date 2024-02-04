@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    label 'static-node-lions '
+    label 'static-node- '
   }
   stages {
     stage('Hello) {
